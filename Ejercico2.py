@@ -38,3 +38,5 @@ print("Código y nombre de los estudiantes que ingresaron antes de 1990 y están
 
 for estudiante in estudiantes_condicionales:
     print("Código: ",estudiante[0], ", Nombre: ",estudiante[1])
+
+print("Farid Camilo Rojas Vargas - ","2220051")
