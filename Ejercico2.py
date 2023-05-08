@@ -8,6 +8,8 @@ def nombre():
 
 estudiantes = np.empty((6500, 5), dtype=object)
 
+#Columna 1 = Codigo estudiante
+
 estudiantes[:, 0] = np.random.randint(2000000, 3000000, size=6500)
 estudiantes[:, 1] = [nombre() for i in range(6500)]
 estudiantes[:, 2] = np.random.uniform(2.8, 5, size=6500)
